@@ -1,0 +1,91 @@
+/* styles.css */
+
+body {
+  font-size: 16px;
+  color: black;
+  font-family: segoe print, Arial, sans-serif;
+}
+
+#navbar-menu{
+	display: block;
+	border: 3px solid black;
+	background-color: gray;
+  	border-radius: 0;
+}
+
+.navbar-brand {
+	padding: 25px;
+}
+
+.navbar-brand h1 {
+	font-family: segoe print, Arial, sans-serif;
+	float: left;
+	color: black;
+  	font-size: 1.5em;
+  	font-weight: bold;
+ 	margin-top: -10px;
+  	margin-bottom: 0;
+  	line-height: .75;
+}
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-list a{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	background-color: yellow;
+	border: 1px solid black;
+	margin: 0;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+  	line-height: 20px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+    }
+
+#nav-list a:hover{
+	background-color: #e7e7e7;
+}
+
+.navbar-toggle{
+	color: black;
+	background-color: yellow;
+	margin-top: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid yellow;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+.container{
+  width: 100%;
+}
+
+.container .row {
+  margin: 0px 2px 2px 2px;
+ }
+
+.menu-content{
+	margin: 30px 2px 2px 2px;
+}
+
+.menu-content{
+	display: block;
+	padding: 10px;
+	background-color: gray;
+}
+
+.main-title{
+	font-size: 3em;
+	font-weight: bold;
+}
